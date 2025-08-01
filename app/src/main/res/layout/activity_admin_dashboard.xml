@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminDashboardActivity">
+
+    <!-- Main content -->
+    <FrameLayout
+        android:id="@+id/fragmentContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFFFF" />
+
+    <!-- Navigation drawer -->
+    <LinearLayout
+        android:id="@+id/sidebarMenu"
+        android:layout_width="240dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:orientation="vertical"
+        android:background="#2E3A59"
+        android:padding="16dp">
+
+        <Button
+            android:id="@+id/btnLiveMap"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Live Map"
+            android:textColor="#FFFFFF"
+            android:background="?attr/selectableItemBackground" />
+
+        <Button
+            android:id="@+id/btnRoute"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Route Assignments"
+            android:textColor="#FFFFFF"
+            android:background="?attr/selectableItemBackground" />
+
+        <Button
+            android:id="@+id/btnSchedule"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Schedule Adjustments"
+            android:textColor="#FFFFFF"
+            android:background="?attr/selectableItemBackground" />
+
+        <Button
+            android:id="@+id/btnDepartures"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Manage Departures"
+            android:textColor="#FFFFFF"
+            android:background="?attr/selectableItemBackground" />
+
+        <Button
+            android:id="@+id/btnBroadcast"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Broadcast to Passengers"
+            android:textColor="#FFFFFF"
+            android:background="?attr/selectableItemBackground" />
+
+        <Button
+            android:id="@+id/btnMessageDrivers"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Message to Drivers"
+            android:textColor="#FFFFFF"
+            android:background="?attr/selectableItemBackground" />
+
+        <Button
+            android:id="@+id/btnLogout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Logout"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#D32F2F"
+            android:layout_marginTop="16dp" />
+    </LinearLayout>
+
+</androidx.drawerlayout.widget.DrawerLayout>

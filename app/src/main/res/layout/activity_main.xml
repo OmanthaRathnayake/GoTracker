@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#21211C"
+    tools:context=".MainActivity">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#121212">
+
+        <LinearLayout
+            android:id="@+id/centerContent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:orientation="vertical"
+            android:gravity="center_horizontal">
+
+            <!-- Bus Icon on Top -->
+            <ImageView
+                android:id="@+id/logo"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/bus" />
+
+            <!-- App Name Below -->
+            <TextView
+                android:id="@+id/appName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Go Tracker"
+                android:textSize="32dp"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF" />
+        </LinearLayout>
+
+        <!-- Slogan at the Bottom -->
+        <TextView
+            android:id="@+id/slogan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="For Better Journey"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="40dp"/>
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

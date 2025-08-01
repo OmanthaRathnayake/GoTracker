@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "166205946120",
+    "project_id": "gotracker-e272e",
+    "storage_bucket": "gotracker-e272e.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:166205946120:android:471b9c343fe4c8406b54bd",
+        "android_client_info": {
+          "package_name": "com.example.gotracker"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAUF_eKhntu-bKonebJWL9l8auZ01u1UDc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
