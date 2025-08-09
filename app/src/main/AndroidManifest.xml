@@ -32,6 +32,12 @@
             android:label="@string/title_activity_admin_dashboard"
             android:theme="@style/Theme.GoTracker.NoActionBar" />
 
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyCnNNRufbjsji06UlxgbTu_-SEkzwqapsc"/>
+
+
     </application>
 
 </manifest>
